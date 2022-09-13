@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _aba - function that computes the absolute value of an interger
+ * _abs` - function that computes the absolute value of an interger
  * @c: is the int that will use for the argument of the function
  * Return: 0
  */
@@ -9,8 +9,8 @@ int _abs(int c)
 {
 	if (c > 0 || c == 0)
 	{
-		return (c);
+	return (c);
 	}
 	else
-		return (c * -1);
+	return (c * -1);
 }

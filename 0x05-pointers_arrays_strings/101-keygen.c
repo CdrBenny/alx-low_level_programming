@@ -6,7 +6,7 @@
  * main - genereates rendom valid passwords for the
  * program 101- crackme.
  *
- * Retrun: always 0.
+ * Retrun: Always 0.
  */
 int main(void)
 {

@@ -2,11 +2,11 @@
 #include <string.h>
 
 /**
- * _strncat - concatenate two strings but add inputted number of bytes
- * @dest: string to be appended upon
- * @src: string to be completed at end of dest
- * @n: interger parameter to compare index to
- * Return: returns new concatenated string
+ * _strncat -> function to append some charx
+ * @dest: first param
+ * @src: second param
+ * @n: 3rd param
+ * Return: string
  */
 char *_strncat(char *dest, char *src, int n)
 {

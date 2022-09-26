@@ -1,1 +1,1 @@
-Write a function
+More pointer, arrays and strings

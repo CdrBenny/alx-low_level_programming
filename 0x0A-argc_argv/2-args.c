@@ -9,11 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int count = 0; /* Derclaring bariables*/
+	int count = 0; /* Derclaring variables*/
 
 	if (argc > 0)
 	{
-		while (count < argc)
+		while (count < argc) /*WHILE - Print each arguments */
 		{
 			printf("%s\n", argc[count]);
 

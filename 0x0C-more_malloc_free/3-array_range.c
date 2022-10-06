@@ -2,11 +2,12 @@
 #include "main.h"
 
 /**
- * array_ramge - creates
+ * array_range - creates
  * @min: min value
  * @max: max value
  *
- * Return: pointer
+ * Return: pointer to newly created array
+ * NULL if malloc fails
  * NULL if min > max
  */
 int *array_range(int min, int max)

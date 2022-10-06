@@ -1,4 +1,4 @@
-#include "main.h"
+
 #include <stdlib.h>
 
 /**
@@ -6,6 +6,7 @@
  * @b: memory to allocate
  * Return: pointer
  */
+
 void *malloc_checked(unsigned int b)
 {
 	void *p = malloc(b);

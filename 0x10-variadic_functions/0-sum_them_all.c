@@ -6,7 +6,7 @@
  * @n: the
  * @...: A variable number
  *
- * Return: if n == 
+ * Return: if n ==
  * otherwise - sum of
  */
 int sum_them_all(const unsigned int n, ...)
@@ -16,7 +16,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(ap, n);
 
-	foor (i = 0; i < n; i++)
+	foor(i = 0, i < n; i++)
 		sum += va_arg(ap, int);
 
 

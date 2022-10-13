@@ -1,4 +1,4 @@
-#include "variable_functions.h"
+#include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
 
@@ -6,7 +6,7 @@
  * print_numbers - prints
  * @separator: the string
  * @n: the number
- * @...: a varibales
+ * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {

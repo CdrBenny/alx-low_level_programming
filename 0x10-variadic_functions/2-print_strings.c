@@ -4,12 +4,11 @@
 
 /**
  * print_strings - print
- * @separator: string
+ * @separator: comma space
  * @n: number
- *
- * Return: no returns
+ * Return: void
  */
-void print_strings(const char *separators, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	char *sep, *ptr;
 	unsigned int i;

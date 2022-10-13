@@ -5,10 +5,7 @@
 /**
  * sum_them_all - R
  * @n: the
- * @...: A variable number
- *
- * Return: if n ==
- * otherwise - sum of
+ * Return: sum
  */
 int sum_them_all(const unsigned int n, ...)
 {

@@ -1,6 +1,5 @@
-#include <stdlib.h>
 #include "function_pointers.h"
-
+#include <stdlib.h>
 /**
  * array_iterator - excutes
  * @array: arraz

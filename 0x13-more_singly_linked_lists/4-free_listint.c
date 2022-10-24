@@ -2,7 +2,7 @@
 
 /**
  * free_listint - Fress a listint_t list.
- * @headd: A pointer to the head of the listint_t
+ * @head: A pointer to the head of the listint_t
  */
 void free_listint(listint_t *head)
 {

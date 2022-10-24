@@ -3,6 +3,7 @@
 /**
  * get_nodeint_at_index - Locates a given node of
  * @head: A pointer to  the head
+ * @index: the index
  *
  * Return: if
  */
